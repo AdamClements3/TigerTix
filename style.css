@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-header{
+    background-color: #ffffff;
+    display: grid;
+    min-height: 75px;
+    grid-template-columns: [one] 5px [two] 75px [three] 5px [four] auto [five] 5px [six] 75px [seven] 5px;
+    grid-template-rows: [one] 5px [two] 75px [three] 5px;
+}
+
+.filter-bar{
+    background-color: #F56600;
+    opacity: 90%;
+    display:grid;
+    min-height: 100px;
+    max-height: 150px;
+    grid-template-columns: repeat(7, 1.28205vw 12.8205vw);
+    grid-template-rows: [one] 10px [two] auto [three] 10px;
+}
+
+.filter-bar button{
+    background-color: white;
+    border-color: white;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 2px #ababab;
+}
+
+.filter-bar button:hover{
+    transition: 500ms;
+    color: white;
+    background-color: #522D80;
+    border-color: #522D80;
+    border-radius: 1vw;
+    box-shadow: 2px 2px 2px #000000;
+    
+}
+
+.menu-button{
+    aspect-ratio: 1/1;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border-radius: 100%;
+    background-color: white;
+    background-image: url(./images/icons/menu.png);
+    background-size: 50px auto;
+    background-position: 50% 50%;
+    border-color: white;
+    border-style: solid;
+    background-repeat: no-repeat;
+}
+
+.menu-button:hover{
+    transition: 500ms;
+    background-color: #dddddd;
+    border-color: #dddddd;
+}
+
+.horiz-logo{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-image: url(./images/TigerTix-horiz.png);
+    background-size: auto 80px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.account-button{
+    aspect-ratio: 1/1;
+    grid-column: 6/7;
+    grid-row: 2/3;
+    border-radius: 100%;
+    background-color: white;
+    background-image: url(./images/icons/account.png);
+    background-size: 70px auto;
+    background-position: 50% 50%;
+    border-color: white;
+    border-style: solid;
+    background-repeat: no-repeat;
+}
+
+.account-button:hover{
+    transition: 500ms;
+    background-color: #dddddd;
+    border-color: #dddddd;
+}
+
+.football-button{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(./images/icons/football.png);
+    background-position: 50% 50%;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+}
+
+.football-button:hover{
+    background-image: url(./images/icons/football-w.png);
+}
+
+.basketball-button{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-image: url(./images/icons/basketball.png);
+    background-position: 50% 50%;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+}
+
+.basketball-button:hover{
+    background-image: url(./images/icons/basketball-w.png);
+}
+
+.soccer-button{
+    grid-column: 6/7;
+    grid-row: 2/3;
+    background-image: url(./images/icons/soccer.png);
+    background-position: 50% 50%;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+}
+
+.soccer-button:hover{
+    background-image: url(./images/icons/soccer-w.png);
+}
+
+.baseball-button{
+    grid-column: 8/9;
+    grid-row: 2/3;
+    background-image: url(./images/icons/baseball.png);
+    background-position: 50% 50%;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+}
+
+.baseball-button:hover{
+    background-image: url(./images/icons/baseball-w.png);
+}
+
+.lacrosse-button{
+    grid-column: 10/11;
+    grid-row: 2/3;
+    background-image: url(./images/icons/lacrosse.png);
+    background-position: 50% 50%;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+}
+
+.lacrosse-button:hover{
+    background-image: url(./images/icons/lacrosse-w.png);
+}
+
+.gymnastics-button{
+    grid-column: 12/13;
+    grid-row: 2/3;
+    background-image: url(./images/icons/gymnastics.png);
+    background-position: 50% 50%;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+}
+
+.gymnastics-button:hover{
+    background-image: url(./images/icons/gymnastics-w.png);
+}
+
+.other-button{
+    grid-column: 14/15;
+    grid-row: 2/3;
+    background-image: url(./images/icons/microphone.png);
+    background-position: 50% 50%;
+    background-size: auto 50px;
+    background-repeat: no-repeat;
+}
+
+.other-button:hover{
+    background-image: url(./images/icons/microphone-w.png);
+}
